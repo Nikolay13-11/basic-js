@@ -1,6 +1,8 @@
 const CustomError = require("../extensions/custom-error");
 
-module.exports = function transform( arr ) {
+module.exports = function transform(/* arr*/ ) {
+  throw new CustomError('Not implemented');
+ /*
   const a = '--discard-next';
   const b = '--discard-prev';
   const c = '--double-next';
@@ -29,7 +31,7 @@ module.exports = function transform( arr ) {
     return false;
   }
 
-
+*/
 
 }
 
